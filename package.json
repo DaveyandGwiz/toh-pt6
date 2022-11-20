@@ -16,6 +16,10 @@
     "build:ssr": "ng build && ng run angular.io-example:server",
     "prerender": "ng run angular.io-example:prerender"
   },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "6.14.9"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^15.0.0-rc.1",
